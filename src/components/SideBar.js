@@ -1,5 +1,6 @@
 import React from 'react'
 import "./SideBar.css"
+import Card from "../UI/Card"
 
 const SideBar = () => {
     return (
@@ -7,33 +8,32 @@ const SideBar = () => {
             <div className="sideBar__avater">
                 <img src="../image/avater.png" alt="avater" />
             </div>
-            <div className="sideBar__icons">
+            <Card className="sideBar__check">
                 <img src="../image/omnicheck.png" alt="avater" />
-                <p>OmniCheck</p>
-            </div>
+            </Card>
+            <p>OmniCheck</p>
 
-            <div className="sideBar__icons">
+            <Card className="sideBar__contract">
                 <img src="../image/contractBuilder.png" alt="avater" />
-                <p>Contract Builder</p>
-            </div>
+            </Card>
+            <p>Contract Builder</p>
 
-            <div className="sideBar__icons">
+            <Card className="sideBar__news">
                 <img src="../image/omniNews.png" alt="avater" />
-                <p>OmniNews</p>
-            </div>
-            <div className="sideBar__icons">
+            </Card>
+            <p>OmniNews</p>
+            <Card className="sideBar__icons">
                 <img src="../image/omniScan.png" alt="avater" />
-                <p>OmniScan</p>
-            </div>
-            <div className="sideBar__icons">
+            </Card>
+            <p>OmniScan</p>
+            <Card className="sideBar__icons calender">
                 <img src="../image/calender.png" alt="avater" />
-                <p>Calender</p>
-            </div>
+            </Card>
+            <p>Calender</p>
 
-            <div className="sideBar__icons">
+            <Card className="sideBar__notification">
                 <img src="../image/notification.png" alt="avater" />
-
-            </div>
+            </Card>
         </div>
     )
 }
