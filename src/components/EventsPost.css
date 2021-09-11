@@ -1,0 +1,26 @@
+.eventsPost {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  background: #3c363b;
+  height: 64px;
+  width: 328px;
+  margin-top: 1rem;
+}
+
+.eventsPost__title p,
+span {
+  font-size: 12px;
+}
+.eventsPost > img {
+  margin: 10px;
+}
+.eventsPost__profile > img {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: -20px;
+  margin-right: 10px;
+}

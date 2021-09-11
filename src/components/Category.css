@@ -1,0 +1,11 @@
+.category {
+  display: flex;
+  height: 105px;
+  align-items: flex-end;
+  justify-content: center;
+  width: 105px;
+  border-radius: 10px;
+  background: #d58a1b;
+  color: #fff;
+  margin-right: 0.2rem;
+}

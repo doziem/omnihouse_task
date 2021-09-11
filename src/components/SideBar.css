@@ -4,7 +4,8 @@
   height: 1432px;
   background-color: #161516;
   color: #fff;
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .sideBar p {
   font-family: Roboto;
@@ -76,4 +77,8 @@
 .sideBar__notification {
   position: absolute;
   bottom: 128px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
 }

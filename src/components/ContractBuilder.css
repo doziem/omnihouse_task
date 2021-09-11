@@ -1,6 +1,83 @@
 .contractBuilder {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  align-items: flex-start;
   width: 404px;
   height: 1432px;
   background-color: #201b20;
   color: #fff;
+}
+
+.contractBuilder__header {
+  display: flex;
+  height: 29px;
+  width: 183px;
+  margin-left: 24px;
+  padding-top: 39px;
+}
+
+.contractBuilder__events {
+  display: flex;
+  justify-content: space-between;
+  background-color: #93227f;
+  height: 48px;
+  width: 235px;
+  border-radius: 10px;
+  align-items: center;
+  margin-top: 99px;
+  margin-bottom: 55px;
+}
+.contractBuilder__eventsAdd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 23px;
+  width: 301px;
+}
+
+.contractBuilder__eventsAdd .img__down {
+  margin-right: 11px;
+}
+.contractBuilder__events img {
+  padding-left: 13px;
+}
+.contractBuilder__events span {
+  object-fit: contain;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-size: 12px;
+}
+.contractBuilder .contractBuilder__header h5 {
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.contractBuilder__events__p {
+  display: flex;
+  align-items: center;
+  margin-bottom: 68px;
+
+  /* padding: 1rem; */
+}
+.contractBuilder__events__p span {
+  display: flex;
+  border-radius: 50%;
+  margin: 1rem;
+  height: 1rem;
+  width: 1rem;
+}
+
+.active {
+  background: #d78f24;
+}
+
+.old {
+  background: #ae3f9b;
+}
+.draft {
+  background: #51b64f;
 }
